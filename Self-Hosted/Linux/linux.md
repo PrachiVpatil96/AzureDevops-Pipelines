@@ -7,6 +7,7 @@
 ## Step 1 : Create an linux  instance on any Cloud
   - SSH Into the instance and Download necessary Softwares Required to run the application
   - For Running `Spring-pet-clinic`
+    
       1. Openjdk-17
       2. Maven 
   - Install Above Softwares as Follows
@@ -22,12 +23,16 @@
  ![Preview](Img1.PNG)
 
 ## Step 2: Configure Agent
+  
    1. Navigate to Azure-devops-Organization>>Project>>Project setting>>Agent Pools>>Default>>Add New Agent
    2. Select an New Agent as Linux agent and Configure it on Your ec2 Instance.
 ![Preview](Img2.PNG)
    3. Now Navigate to Agent Pools>>Default>>
      Youll see your agent status `online`.
-
+   4. Import an repository
+      [Github](https://github.com/PrachiVpatil96/spring-petclinic)
+   5. Write pipeline `azure-pipelines.yaml` and  
+    run the pipeline .
 ![Preview](Img3.PNG)
 
       

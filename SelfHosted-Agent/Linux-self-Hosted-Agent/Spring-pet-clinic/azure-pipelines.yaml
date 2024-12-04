@@ -6,4 +6,4 @@ steps:
       goals: validate
       jdkVersionOption: '1.17'
       javaHomeOption: 'JDKVersion'
-pool: hi
+pool: ip-172-31-44-216

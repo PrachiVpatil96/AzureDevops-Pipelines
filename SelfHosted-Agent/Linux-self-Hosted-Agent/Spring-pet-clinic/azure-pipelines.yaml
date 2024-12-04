@@ -1,9 +1,9 @@
 ---
 steps:
   - task: Maven@4
-    inputs: 
+    inputs:
       mavenPOMFile: pom.xml
       goals: validate
-      jdkVersionOption: '1.17'
-      javaHomeOption: 'JDKVersion'
-pool: ip-172-31-44-216
+      jdkVersionOption: "1.17"
+      javaHomeOption: "JDKVersion"
+pool: Agent-1

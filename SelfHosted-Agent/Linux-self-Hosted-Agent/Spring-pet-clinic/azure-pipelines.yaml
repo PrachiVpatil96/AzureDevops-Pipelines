@@ -1,0 +1,9 @@
+---
+steps:
+  - task: Maven@4
+    inputs: 
+      mavenPOMFile: pom.xml
+      goals: clean package
+      jdkVersionOption: '1.17'
+      javaHomeOption: 'JDKVersion'
+pool: hi
